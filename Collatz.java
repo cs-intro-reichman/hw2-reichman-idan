@@ -6,7 +6,7 @@ public class Collatz {
 		char voc = Character.toUpperCase(args[1].charAt(0));
 		int counter = 1;
 		Boolean long1 = false;
-		if (voc == 'v')
+		if (voc == 'V')
 		{
 			long1 = true;
 		}
