@@ -14,6 +14,9 @@ public class Collatz {
 		for (int i = 1; i<= n1; i++) {
 			n2 = i;
 			if (long1) {System.out.print(n2 + " ");}
+			if (i==1) {
+				n2=4;
+			}
 			while (n2!=1) {
 				if ( n2%2==0){
 					n2 = n2/2;
