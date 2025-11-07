@@ -13,8 +13,12 @@ public class Collatz {
 		int n2 = 0;
 		for (int i = 1; i<= n1; i++) {
 			n2 = i;
+			if (long1) {System.out.print(n2 + " ");}
 			if (i==1) {
 				n2=4;
+				if (long1) {System.out.print(n2 + " ");
+				counter++;
+			}
 			}
 			if (long1) {System.out.print(n2 + " ");}
 			while (n2!=1) {
