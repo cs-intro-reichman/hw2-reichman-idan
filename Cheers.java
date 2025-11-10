@@ -14,7 +14,7 @@ public class Cheers {
                         System.out.println("Give me an "+ Lholder + ": " + Lholder + "!");
                 }
                 else {
-                        System.out.println("Give me a "+ Lholder + ": " + Lholder + "!");
+                        System.out.println("Give me a  "+ Lholder + ": " + Lholder + "!");
                 }
                 }
              System.out.println("What does that spell?");
